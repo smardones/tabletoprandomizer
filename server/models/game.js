@@ -16,7 +16,7 @@ Game.init(
             type: DataTypes.STRING,
             allowNull: false
         },
-        coverimg: {
+        cover_img: {
             type: DataTypes.STRING
         }
     },
