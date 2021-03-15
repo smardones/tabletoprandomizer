@@ -1,5 +1,6 @@
 const Sequelize = require('sequelize');
 
+// installed dotenv package and created .env file to hide mysql login creds
 require('dotenv').config();
 
 const sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PW, {
