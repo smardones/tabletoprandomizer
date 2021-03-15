@@ -9,7 +9,8 @@ Expansion.init(
         id: {
             type: DataTypes.INTEGER,
             allowNull: false,
-            autoIncrement: true
+            autoIncrement: true,
+            primaryKey: true
         },
         name: {
             type: DataTypes.STRING,
@@ -19,7 +20,7 @@ Expansion.init(
             type: DataTypes.INTEGER,
             references: {
                 model: Game,
-                key: id
+                key: "id"
             }
         }
     },
