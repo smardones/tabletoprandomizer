@@ -27,7 +27,8 @@ Expansion.init(
     {
         sequelize,
         timestamps: false,
-        modelName: "expansion"
+        modelName: "expansion",
+        freezeTableName: true
 
     }
 );

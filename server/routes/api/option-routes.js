@@ -1,11 +1,11 @@
 const router = require('express').Router();
-const Option = require('../../models/option');
+const { Option } = require('../../models');
 
 router.get('/:gameId', (req, res) => {
     
     Option.findAll({
         where: {
-            id: req.params.gameId
+            game_id: req.params.gameId
         }
     })
         .then(dbOptionData => {
@@ -19,6 +19,16 @@ router.get('/:gameId', (req, res) => {
             console.log(err);
             res.status(500).json(err);
         });
+});
+
+router.get('/', (req, res) => {
+
+    Option.findAll()
+        .then(optionData => res.json(optionData))
+        .catch(err => {
+            console.log(err);
+            res.status(500).json(err);
+    });
 });
 
 module.exports = router;

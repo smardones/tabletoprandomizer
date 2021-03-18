@@ -17,27 +17,39 @@ Option.init(
             type: DataTypes.STRING,
             allowNull: false
         },
+        game_name: {
+            type: DataTypes.STRING,
+            allowNull: false
+        },
         game_id: {
             type: DataTypes.INTEGER,
             references: {
-                model: Game,
+                model: 'game',
                 key: "id"
-            }
+            },
+            allowNull: false
+        },
+        expansion_name: {
+            type: DataTypes.STRING
         },
         expansion_id: {
             type: DataTypes.INTEGER,
             references: {
-                model: Expansion,
+                model: 'expansion',
                 key: "id"
             }
+        },
+        option_img: {
+            type: DataTypes.STRING
         }
     },
     {
         sequelize,
         timestamps: false,
-        modelName: "option"
+        modelName: "option",
+        freezeTableName: true
 
     }
 );
 
-module.exports = Expansion;
+module.exports = Option;
