@@ -5,7 +5,10 @@ const { Game } = require('../../models');
 router.get('/', (req, res) => {
     
     Game.findAll()
-        .then(dbGameData => res.json(dbGameData))
+        .then(dbGameData => {
+            console.log(dbGameData);
+            res.json(dbGameData);
+        })
         .catch(err => {
             console.log(err);
             res.status(500).json(err);
