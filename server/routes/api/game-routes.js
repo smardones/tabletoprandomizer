@@ -6,8 +6,7 @@ router.get('/', (req, res) => {
     
     Game.findAll()
         .then(dbGameData => {
-            console.log(dbGameData);
-            res.json(dbGameData);
+        res.json(dbGameData);
         })
         .catch(err => {
             console.log(err);

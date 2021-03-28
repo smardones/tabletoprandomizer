@@ -13,7 +13,7 @@ Game.init(
             
             
         },
-        name: {
+        game_name: {
             type: DataTypes.STRING,
             allowNull: false
         },
