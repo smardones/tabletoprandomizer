@@ -12,7 +12,11 @@ function Home() {
     , [])
     
     
+    function formatLinkName(gameName) {
+       let revisedString = gameName.replace(/\s/g, '');
 
+       return revisedString;
+    }
 
 
     
@@ -24,7 +28,7 @@ function Home() {
         return(
             <div className="game-list">
             {gameData.map(game => (
-                <div className="card" key={game.game_name}>
+                <a href={formatLinkName(game.game_name)} className="card" key={game.game_name}>
                     <img
                         src={game.cover_img}
                         alt={game.game_name}
@@ -32,7 +36,7 @@ function Home() {
                     <div className="card-content">
                         <h2>{game.game_name}</h2>
                     </div>
-                </div>   
+                </a>   
             ))
             }
             </div>
