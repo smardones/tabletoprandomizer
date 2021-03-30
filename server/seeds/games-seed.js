@@ -11,7 +11,7 @@ const gameData = [
     },
     {
         game_name: 'Spirit Island',
-        cover_img: '../images/game-covers/SpiritIsland.jpg'
+        cover_img: '../images/game-covers/SpiritIsland.png'
     },
     {
         game_name: 'Root',
