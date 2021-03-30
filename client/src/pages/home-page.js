@@ -1,25 +1,41 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 function Home() {
 
-    const gameData = getGames();
+    const [gameData, setGameData] = useState([]);
 
-    async function getGames() {
-        let games;
-        await fetch('http://localhost:3001/api/game', {
-        method: 'GET'
-    })
+    useEffect(() => {
+        fetch('http://localhost:3001/api/game')
         .then(res => res.json())
-        .then(data => games = data)
-        .then(() => console.log(games))
-        .catch(err => console.log(err));
+        .then(data => setGameData(data));}
+    , [])
+    
+    
+
+
+
+    
+    if (!gameData) {
+        return(
+            <h3>Loading...</h3>
+        )
+    } if (gameData) {
+        return(
+            <div className="game-list">
+            {gameData.map(game => (
+                <div className="card" key={game.game_name}>
+                    <img
+                        src={game.cover_img}
+                        alt={game.game_name}
+                    />
+                    <div className="card-content">
+                        <h2>{game.game_name}</h2>
+                    </div>
+                </div>   
+            ))
+            }
+            </div>
+        )
     }
-
-    return(
-        <div className="game-list">
-            <h1>Hello</h1>
-        </div>
-    )
 }
-
 export default Home;
