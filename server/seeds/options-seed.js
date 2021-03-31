@@ -108,6 +108,180 @@ const optionData = [
         game_name: "Disney Villainous",
         game_id: "1",
         option_img: "../images/player-options/disney-villainous/Yzma.png"
+    },
+    {
+        name: "Hela",
+        game_name: "Marvel Villainous",
+        game_id: "2",
+        option_img: "../images/player-options/marvel-villainous/Hela.png"
+    },
+    {
+        name: "Killmonger",
+        game_name: "Marvel Villainous",
+        game_id: "2",
+        option_img: "../images/player-options/marvel-villainous/Killmonger.png"
+    },
+    {
+        name: "Taskmaster",
+        game_name: "Marvel Villainous",
+        game_id: "2",
+        option_img: "../images/player-options/marvel-villainous/Taskmaster.png"
+    },
+    {
+        name: "Thanos",
+        game_name: "Marvel Villainous",
+        game_id: "2",
+        option_img: "../images/player-options/marvel-villainous/Thanos.png"
+    },
+    {
+        name: "Ultron",
+        game_name: "Marvel Villainous",
+        game_id: "2",
+        option_img: "../images/player-options/marvel-villainous/Ultron.png"
+    },
+    {
+        name: "Bringer of Dreams and Nightmares",
+        game_name: "Spirit Island",
+        game_id: "3",
+        option_img: "../images/player-options/spirit-island/Bringer.png"
+    },
+    {
+        name: "A Spread of Rampant Green",
+        game_name: "Spirit Island",
+        game_id: "3",
+        option_img: "../images/player-options/spirit-island/RampantGreen.png"
+    },
+    {
+        name: "Lighting's Swift Strike",
+        game_name: "Spirit Island",
+        game_id: "3",
+        option_img: "../images/player-options/spirit-island/Lightning.png"
+    },
+    {
+        name: "Ocean's Hungry Grasp",
+        game_name: "Spirit Island",
+        game_id: "3",
+        option_img: "../images/player-options/spirit-island/Ocean.png"
+    },
+    {
+        name: "River Surges in Sunlight",
+        game_name: "Spirit Island",
+        game_id: "3",
+        option_img: "../images/player-options/spirit-island/River.png"
+    },
+    {
+        name: "Shadows Flicker Like Flame",
+        game_name: "Spirit Island",
+        game_id: "3",
+        option_img: "../images/player-options/spirit-island/Shadows.png"
+    },
+    {
+        name: "Thunderspeaker",
+        game_name: "Spirit Island",
+        game_id: "3",
+        option_img: "../images/player-options/spirit-island/Thunderspeaker.png"
+    },
+    {
+        name: "Vital Strength of the Earth",
+        game_name: "Spirit Island",
+        game_id: "3",
+        option_img: "../images/player-options/spirit-island/Earth.png"
+    },
+    {
+        name: "Heart of the Wildfire",
+        game_name: "Spirit Island",
+        game_id: "3",
+        option_img: "../images/player-options/spirit-island/Wildfire.png"
+    },
+    {
+        name: "Serpent Slumbering Beneath the Island",
+        game_name: "Spirit Island",
+        game_id: "3",
+        option_img: "../images/player-options/spirit-island/Serpent.png"
+    },
+    {
+        name: "Keeper of the Forbidden Wilds",
+        game_name: "Spirit Island",
+        game_id: "3",
+        option_img: "../images/player-options/spirit-island/Keeper.png"
+    },
+    {
+        name: "Sharp Fangs Behind the Leaves",
+        game_name: "Spirit Island",
+        game_id: "3",
+        option_img: "../images/player-options/spirit-island/SharpFangs.png"
+    },
+    {
+        name: "Downpour Drenches the World",
+        game_name: "Spirit Island",
+        game_id: "3",
+        option_img: "../images/player-options/spirit-island/Downpour.png"
+    },
+    {
+        name: "Finder of Paths Unseen",
+        game_name: "Spirit Island",
+        game_id: "3",
+        option_img: "../images/player-options/spirit-island/Finder.png"
+    },
+    {
+        name: "Fractured Days Split the Sky",
+        game_name: "Spirit Island",
+        game_id: "3",
+        option_img: "../images/player-options/spirit-island/FracturedDays.png"
+    },
+    {
+        name: "Grinning Trickster Stirs Up Trouble",
+        game_name: "Spirit Island",
+        game_id: "3",
+        option_img: "../images/player-options/spirit-island/Trickster.png"
+    },
+    {
+        name: "Lure of the Deep Wilderness",
+        game_name: "Spirit Island",
+        game_id: "3",
+        option_img: "../images/player-options/spirit-island/Lure.png"
+    },
+    {
+        name: "Many Minds Move As One",
+        game_name: "Spirit Island",
+        game_id: "3",
+        option_img: "../images/player-options/spirit-island/ManyMinds.png"
+    },
+    {
+        name: "Shifting Memory of Ages",
+        game_name: "Spirit Island",
+        game_id: "3",
+        option_img: "../images/player-options/spirit-island/Memories.png"
+    },
+    {
+        name: "Shroud of Silent Mist",
+        game_name: "Spirit Island",
+        game_id: "3",
+        option_img: "../images/player-options/spirit-island/Shroud.png"
+    },
+    {
+        name: "Starlight Seeks Its Form",
+        game_name: "Spirit Island",
+        game_id: "3",
+        option_img: "../images/player-options/spirit-island/Starlight.png"
+    },
+    {
+        name: "Stone's Unyielding Defiance",
+        game_name: "Spirit Island",
+        game_id: "3",
+        option_img: "../images/player-options/spirit-island/Stone.png"
+    },
+    {
+        name: "Vengeance As a Burning Plague",
+        game_name: "Spirit Island",
+        game_id: "3",
+        option_img: "../images/player-options/spirit-island/Vengeance.png"
+    },
+    {
+        name: "Volcano Looming High",
+        game_name: "Spirit Island",
+        game_id: "3",
+        option_img: "../images/player-options/spirit-island/Volcano.png"
     }
 ];
 

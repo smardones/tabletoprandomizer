@@ -40,7 +40,7 @@ function Game() {
                 <img src={selectedCharacter.option_img} alt={selectedCharacter.name} />
                 <h2>{selectedCharacter.name}</h2>
                 <button onClick={randomHandler}>Choose Again</button>
-                <button>Select Another Game</button>
+                <Link to="/"><button>Select Another Game</button></Link>
             </div>
         )
     }
