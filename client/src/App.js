@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Home from './pages/home-page';
-import DisneyVillainous from './pages/disneyvill-page';
+import Game from './pages/game-page';
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <div className="App">
         <header className="App-header">
           <Route exact path="/" component={Home} />
-          <Route exact path="/disneyvillainous" component={DisneyVillainous} />
+          <Route exact path="/game/:id" component={Game} />
         </header>
       </div>
     </Router>

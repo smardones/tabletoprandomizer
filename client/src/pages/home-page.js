@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 
 function Home() {
@@ -28,7 +29,7 @@ function Home() {
         return(
             <div className="game-list">
             {gameData.map(game => (
-                <a href={formatLinkName(game.game_name)} className="card" key={game.game_name}>
+                <Link to={`/game/${game.id}`} className="card" key={game.game_name}>
                     <img
                         src={game.cover_img}
                         alt={game.game_name}
@@ -36,7 +37,7 @@ function Home() {
                     <div className="card-content">
                         <h2>{game.game_name}</h2>
                     </div>
-                </a>   
+                </Link>
             ))
             }
             </div>
