@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import randomizer from '../util/randomizer';
 
 function Game() {
@@ -31,7 +31,7 @@ function Game() {
     return(
         <div>
             <button onClick={randomHandler}>You will be...</button>
-            <button>Select Another Game</button>
+            <Link to="/"><button>Select Another Game</button></Link>
         </div>
     )
     } if (selectedCharacter) {
