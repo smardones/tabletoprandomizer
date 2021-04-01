@@ -1,10 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Header() {
     
     return(
-        <a href="/">
+        <Link href="/">
             <h1>Table Top Randomizer</h1>
-        </a>
+        </Link>
     );
 }
+
+export default Header;
