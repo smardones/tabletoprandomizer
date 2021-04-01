@@ -282,7 +282,110 @@ const optionData = [
         game_name: "Spirit Island",
         game_id: "3",
         option_img: "../images/player-options/spirit-island/Volcano.png"
+    },
+    {
+        name: "Lizard Cult",
+        game_name: "Root",
+        game_id: "4",
+        option_img: "../images/player-options/root/Lizard-Cult.jpg"
+    },
+    {
+        name: "Riverfolk Company",
+        game_name: "Root",
+        game_id: "4",
+        option_img: "../images/player-options/root/Riverfolk_Company.jpg"
+    },
+    {
+        name: "Corvid Conspiracy",
+        game_name: "Root",
+        game_id: "4",
+        option_img: "../images/player-options/root/RootUWE_CorvidConspiracy.png"
+    },
+    {
+        name: "Underground Duchy",
+        game_name: "Root",
+        game_id: "4",
+        option_img: "../images/player-options/root/RootUWE_UndergroundDuchy.png"
+    },
+    {
+        name: "Eyrie Dynasties",
+        game_name: "Root",
+        game_id: "4",
+        option_img: "../images/player-options/root/The-Eyrie_Dynasties.png"
+    },
+    {
+        name: "Marquise de Cat",
+        game_name: "Root",
+        game_id: "4",
+        option_img: "../images/player-options/root/The-Marquise-de-Cat.png"
+    },
+    {
+        name: "Vagabond",
+        game_name: "Root",
+        game_id: "4",
+        option_img: "../images/player-options/root/The-Vagabond.png"
+    },
+    {
+        name: "Woodland Alliance",
+        game_name: "Root",
+        game_id: "4",
+        option_img: "../images/player-options/root/The-Woodland-Alliance.png"
+    },
+    {
+        name: "Clan Albion",
+        game_name: "Scythe",
+        game_id: "5",
+        option_img: "../images/player-options/scythe/Albion.jpg"
+    },
+    {
+        name: "Crimean Khanate",
+        game_name: "Scythe",
+        game_id: "5",
+        option_img: "../images/player-options/scythe/Crimean.jpg"
+    },
+    {
+        name: "Fenris",
+        game_name: "Scythe",
+        game_id: "5",
+        option_img: "../images/player-options/scythe/Fenris.jpg"
+    },
+    {
+        name: "Nordic Kingdoms",
+        game_name: "Scythe",
+        game_id: "5",
+        option_img: "../images/player-options/scythe/Nordic.jpg"
+    },
+    {
+        name: "Republic of Polandia",
+        game_name: "Scythe",
+        game_id: "5",
+        option_img: "../images/player-options/scythe/Polandia.jpg"
+    },
+    {
+        name: "Rusviet Union",
+        game_name: "Scythe",
+        game_id: "5",
+        option_img: "../images/player-options/scythe/Rusviet.jpg"
+    },
+    {
+        name: "Saxony Empire",
+        game_name: "Scythe",
+        game_id: "5",
+        option_img: "../images/player-options/scythe/Saxony.jpg"
+    },
+    {
+        name: "Togawa Shogunate",
+        game_name: "Scythe",
+        game_id: "5",
+        option_img: "../images/player-options/scythe/Togawa.jpg"
+    },
+    {
+        name: "Vesna Tesla",
+        game_name: "Scythe",
+        game_id: "5",
+        option_img: "../images/player-options/scythe/Vesna.jpg"
     }
+
 ];
 
 const seedOptions = () => {
