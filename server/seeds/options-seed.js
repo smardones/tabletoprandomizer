@@ -293,7 +293,7 @@ const optionData = [
         name: "Riverfolk Company",
         game_name: "Root",
         game_id: "4",
-        option_img: "../images/player-options/root/Riverfolk_Company.jpg"
+        option_img: "../images/player-options/root/Riverfolk-Company.jpg"
     },
     {
         name: "Corvid Conspiracy",
@@ -311,7 +311,7 @@ const optionData = [
         name: "Eyrie Dynasties",
         game_name: "Root",
         game_id: "4",
-        option_img: "../images/player-options/root/The-Eyrie_Dynasties.png"
+        option_img: "../images/player-options/root/The-Eyrie-Dynasties.png"
     },
     {
         name: "Marquise de Cat",
@@ -359,7 +359,7 @@ const optionData = [
         name: "Republic of Polandia",
         game_name: "Scythe",
         game_id: "5",
-        option_img: "../images/player-options/scythe/Polandia.jpg"
+        option_img: "../images/player-options/scythe/Polania.jpg"
     },
     {
         name: "Rusviet Union",
