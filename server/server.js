@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const routes = require('./routes');
 const sequelize = require('./config/connection');
-const cors = require('cors');
+const { default: allSeed } = require('./seeds');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -18,4 +18,5 @@ app.use(routes);
 // turn on connection to db & server
 sequelize.sync({ force: false }).then(() => {
     app.listen(PORT, () => console.log('Now Listening'));
+    allSeed();
 });
