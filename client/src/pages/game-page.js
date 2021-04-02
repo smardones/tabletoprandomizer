@@ -29,18 +29,26 @@ function Game() {
     
     if (!selectedCharacter) {
     return(
-        <div>
-            <button onClick={randomHandler}>You will be...</button>
-            <Link to="/"><button>Select Another Game</button></Link>
+        <div class="initial-game-container">
+            <button onClick={randomHandler} class="event-button">You will be...</button>
+            <Link to="/"><button class="choose-again-button">Select Another Game</button></Link>
         </div>
     )
     } if (selectedCharacter) {
         return(
             <div>
-                <img src={selectedCharacter.option_img} alt={selectedCharacter.name} />
-                <h2>{selectedCharacter.name}</h2>
-                <button onClick={randomHandler}>Choose Again</button>
-                <Link to="/"><button>Select Another Game</button></Link>
+                <div className="option-display">
+                    <img 
+                        src={selectedCharacter.option_img} 
+                        alt={selectedCharacter.name} 
+                        className="option-img" 
+                        />
+                    <h2>{selectedCharacter.name}</h2>
+                </div>
+                <div class="button-container">
+                    <button onClick={randomHandler} class="do-over-button">Choose Again</button>
+                    <Link to="/"><button class="choose-again-button">Select Another Game</button></Link>
+                </div>
             </div>
         )
     }

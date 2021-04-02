@@ -12,13 +12,6 @@ function Home() {
         .then(data => setGameData(data));}
     , [])
     
-    
-    function formatLinkName(gameName) {
-       let revisedString = gameName.replace(/\s/g, '');
-
-       return revisedString;
-    }
-
 
     
     if (!gameData) {
@@ -33,6 +26,7 @@ function Home() {
                     <img
                         src={game.cover_img}
                         alt={game.game_name}
+                        className="game-img"
                     />
                     <div className="card-content">
                         <h2>{game.game_name}</h2>

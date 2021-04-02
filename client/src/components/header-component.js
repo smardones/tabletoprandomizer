@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Header() {
     
     return(
-        <Link href="/">
+        <Link to="/">
             <h1>Table Top Randomizer</h1>
         </Link>
     );
