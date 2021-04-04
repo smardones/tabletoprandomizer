@@ -7,7 +7,9 @@ const sequelize = require('./config/connection');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-app.use(express.static(path.join(__dirname, 'build')))
+if (process.env.NODE_ENV === 'production') {
+    app.use(express.static(path.join(__dirname, '../client/build')));
+  }
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
