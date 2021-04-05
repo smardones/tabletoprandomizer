@@ -17,5 +17,3 @@ const allSeed = async () => {
 }
 
 allSeed();
-
-export default allSeed;
