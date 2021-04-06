@@ -7,7 +7,7 @@ function Home() {
     const [gameData, setGameData] = useState([]);
 
     useEffect(() => {
-        fetch('https://xo5m7ytvrfyska00:rgb7uvd5q2m4zw1b@lyn7gfxo996yjjco.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/h4baedxe2tujhxaf/api/game')
+        fetch('https://agile-inlet-31690.herokuapp.com/api/game')
         .then(res => res.json())
         .then(data => setGameData(data));}
     , [])
