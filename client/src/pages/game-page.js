@@ -11,7 +11,7 @@ function Game() {
 
 
     useEffect(() => {
-        fetch(`https://agile-inlet-31690.herokuapp.com/api/playeroptions/${gameId}`, {
+        fetch(`http://agile-inlet-31690.herokuapp.com/api/playeroptions/${gameId}`, {
             
         })
         .then(res => res.json())
