@@ -7,7 +7,7 @@ function Home() {
     const [gameData, setGameData] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:3001/api/game')
+        fetch('mysql://xo5m7ytvrfyska00:rgb7uvd5q2m4zw1b@lyn7gfxo996yjjco.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/h4baedxe2tujhxaf/api/game')
         .then(res => res.json())
         .then(data => setGameData(data));}
     , [])

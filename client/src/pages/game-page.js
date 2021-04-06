@@ -11,7 +11,7 @@ function Game() {
 
 
     useEffect(() => {
-        fetch(`http://localhost:3001/api/playeroptions/${gameId}`, {
+        fetch(`mysql://xo5m7ytvrfyska00:rgb7uvd5q2m4zw1b@lyn7gfxo996yjjco.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/h4baedxe2tujhxaf/api/playeroptions/${gameId}`, {
             
         })
         .then(res => res.json())
