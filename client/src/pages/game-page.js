@@ -30,7 +30,9 @@ function Game() {
     if (!selectedCharacter) {
     return(
         <div class="initial-game-container">
-            <button onClick={randomHandler} class="event-button">You will be...</button>
+            <button onClick={randomHandler} class="event-button">
+                <h3>You will be...</h3>
+            </button>
             <Link to="/"><button class="choose-again-button">Select Another Game</button></Link>
         </div>
     )
