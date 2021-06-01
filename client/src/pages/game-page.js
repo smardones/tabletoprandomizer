@@ -39,6 +39,7 @@ function Game() {
     } if (selectedCharacter) {
         return(
             <div>
+                <h2>{characterData[0].game_name}</h2>
                 <div className="option-display">
                     <img 
                         src={selectedCharacter.option_img} 
