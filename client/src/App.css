@@ -40,10 +40,6 @@ a {
     background: linear-gradient(45deg, #ff6d00, #3c096c);
 }
 
-.card :before {
-    
-}
-
 .card span {
     position: absolute;
     top: 6px;
@@ -73,6 +69,11 @@ a {
 }
 
 /* Game Page CSS */
+
+.game-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
 
 .initial-game-container {
     display: flex;

@@ -40,24 +40,24 @@ function Game() {
     console.log(characterData);
     
     
-    if (!characterData) {
-        return ( <h2>Loading...</h2> )
-    } if (!selectedCharacter) {
+    if (!currentGame) {
+        return ( <h2></h2> )
+    } if (!selectedCharacter && currentGame) {
     return(
         <div>
-            <h2>{}</h2>
+            <h2 className="game-title">{currentGame[0].game_name}</h2>
             <div class="initial-game-container">
                 <button onClick={randomHandler} class="event-button">
                     <h3>You will be...</h3>
                 </button>
-                <Link to="/"><button class="choose-again-button">Select Another Game</button></Link>
+                <Link to="/"><button className="choose-again-button">Select Another Game</button></Link>
             </div>
         </div>
     )
     } if (selectedCharacter) {
         return(
             <div>
-                <h2>{characterData[0].game_name}</h2>
+                <h2 className="game-title">{currentGame[0].game_name}</h2>
                 <div className="option-display">
                     <img 
                         src={selectedCharacter.option_img} 
