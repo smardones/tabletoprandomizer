@@ -14,4 +14,24 @@ router.get('/', (req, res) => {
         });
 });
 
+router.get('/:gameId', (req, res) => {
+
+    Game.findAll({
+        where: {
+            id: req.params.gameId
+        }
+    })
+    .then(gameData => {
+        if (!gameData) {
+            res.status(404).json({message: 'No game found'})
+                return;
+        }
+        res.json(gameData);
+    })
+    .catch(err => {
+        console.log(err);
+        res.status(500).json(err);
+    })
+})
+
 module.exports = router;

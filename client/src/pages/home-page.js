@@ -12,7 +12,6 @@ function Home() {
         .then(data => setGameData(data));}
     , [])
     
-
     
     if (!gameData) {
         return(

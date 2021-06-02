@@ -6,6 +6,7 @@ function Game() {
 
     const [characterData, setCharacterData] = useState([]);
     const [selectedCharacter, setSelectedCharacter] = useState();
+    const [currentGame, setCurrentGame] = useState();
 
     const { id: gameId } = useParams();
 
@@ -16,24 +17,41 @@ function Game() {
         })
         .then(res => res.json())
         .then(data => setCharacterData(data));}
-    , [])
+    , []);
+
+    useEffect(() => {
+        fetch(`https://agile-inlet-31690.herokuapp.com/api/game/${gameId}`, {
+            
+        })
+        .then(res => res.json())
+        .then(data => {
+            console.log(data)
+            setCurrentGame(data)
+        });}
+    , []);
 
     function randomHandler(e) {
         e.preventDefault();
         let selection = randomizer(characterData);
-        console.log(characterData);
         setSelectedCharacter(selection);
     }
 
+    
     console.log(characterData);
     
-    if (!selectedCharacter) {
+    
+    if (!characterData) {
+        return ( <h2>Loading...</h2> )
+    } if (!selectedCharacter) {
     return(
-        <div class="initial-game-container">
-            <button onClick={randomHandler} class="event-button">
-                <h3>You will be...</h3>
-            </button>
-            <Link to="/"><button class="choose-again-button">Select Another Game</button></Link>
+        <div>
+            <h2>{}</h2>
+            <div class="initial-game-container">
+                <button onClick={randomHandler} class="event-button">
+                    <h3>You will be...</h3>
+                </button>
+                <Link to="/"><button class="choose-again-button">Select Another Game</button></Link>
+            </div>
         </div>
     )
     } if (selectedCharacter) {
