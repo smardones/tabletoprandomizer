@@ -5,6 +5,7 @@ const optionData = [
         name: "Captain Hook",
         game_name: "Disney Villainous",
         game_id: "1",
+        expansion_name: "The Worst Takes It All",
         expansion_id: "1",
         option_img: "../images/player-options/disney-villainous/Captain_Hook.png"
     },
@@ -12,6 +13,7 @@ const optionData = [
         name: "Cruella De Vil",
         game_name: "Disney Villainous",
         game_id: "1",
+        expansion_name: "Perfectly Wretched",
         expansion_id: "4",
         option_img: "../images/player-options/disney-villainous/Cruella_De_Vil.png"
     },
@@ -19,6 +21,7 @@ const optionData = [
         name: "Dr. Facilier",
         game_name: "Disney Villainous",
         game_id: "1",
+        expansion_name: "Wicked to the Core",
         expansion_id: "2",
         option_img: "../images/player-options/disney-villainous/Dr_Facilier.png"
     },
@@ -26,6 +29,7 @@ const optionData = [
         name: "Evil Queen",
         game_name: "Disney Villainous",
         game_id: "1",
+        expansion_name: "Wicked to the Core",
         expansion_id: "2",
         option_img: "../images/player-options/disney-villainous/Evil_Queen.png"
     },
@@ -33,6 +37,7 @@ const optionData = [
         name: "Gaston",
         game_name: "Disney Villainous",
         game_id: "1",
+        expansion_name: "Despicable Plots",
         expansion_id: "5",
         option_img: "../images/player-options/disney-villainous/Gaston.png"
     },
@@ -40,6 +45,7 @@ const optionData = [
         name: "Hades",
         game_name: "Disney Villainous",
         game_id: "1",
+        expansion_name: "Wicked to the Core",
         expansion_id: "2",
         option_img: "../images/player-options/disney-villainous/Hades.png"
     },
@@ -47,6 +53,7 @@ const optionData = [
         name: "Horned King",
         game_name: "Disney Villainous",
         game_id: "1",
+        expansion_name: "Despicable Plots",
         expansion_id: "5",
         option_img: "../images/player-options/disney-villainous/Horned_King.png"
     },
@@ -54,6 +61,7 @@ const optionData = [
         name: "Jafar",
         game_name: "Disney Villainous",
         game_id: "1",
+        expansion_name: "The Worst Takes It All",
         expansion_id: "1",
         option_img: "../images/player-options/disney-villainous/Jafar.png"
     },
@@ -61,6 +69,7 @@ const optionData = [
         name: "Lady Tremaine",
         game_name: "Disney Villainous",
         game_id: "1",
+        expansion_name: "Despicable Plots",
         expansion_id: "5",
         option_img: "../images/player-options/disney-villainous/Lady_Tremaine.png"
     },
@@ -68,6 +77,7 @@ const optionData = [
         name: "Maleficent",
         game_name: "Disney Villainous",
         game_id: "1",
+        expansion_name: "The Worst Takes It All",
         expansion_id: "1",
         option_img: "../images/player-options/disney-villainous/Maleficent.png"
     },
@@ -75,6 +85,7 @@ const optionData = [
         name: "Mother Gothel",
         game_name: "Disney Villainous",
         game_id: "1",
+        expansion_name: "Perfectly Wretched",
         expansion_id: "4",
         option_img: "../images/player-options/disney-villainous/Mother_Gothel.png"
     },
@@ -82,6 +93,7 @@ const optionData = [
         name: "Pete",
         game_name: "Disney Villainous",
         game_id: "1",
+        expansion_name: "Perfectly Wretched",
         expansion_id: "4",
         option_img: "../images/player-options/disney-villainous/Pete.png"
     },
@@ -89,6 +101,7 @@ const optionData = [
         name: "Prince John",
         game_name: "Disney Villainous",
         game_id: "1",
+        expansion_name: "The Worst Takes It All",
         expansion_id: "1",
         option_img: "../images/player-options/disney-villainous/Prince_John.png"
     },
@@ -96,6 +109,7 @@ const optionData = [
         name: "Queen of Hearts",
         game_name: "Disney Villainous",
         game_id: "1",
+        expansion_name: "The Worst Takes It All",
         expansion_id: "1",
         option_img: "../images/player-options/disney-villainous/Queen_of_Hearts.png"
     },
@@ -103,6 +117,7 @@ const optionData = [
         name: "Ratigan",
         game_name: "Disney Villainous",
         game_id: "1",
+        expansion_name: "Evil Come Prepared",
         expansion_id: "3",
         option_img: "../images/player-options/disney-villainous/Ratigan.png"
     },
@@ -110,6 +125,7 @@ const optionData = [
         name: "Scar",
         game_name: "Disney Villainous",
         game_id: "1",
+        expansion_name: "Evil Come Prepared",
         expansion_id: "3",
         option_img: "../images/player-options/disney-villainous/Scar.png"
     },
@@ -117,6 +133,7 @@ const optionData = [
         name: "Ursula",
         game_name: "Disney Villainous",
         game_id: "1",
+        expansion_name: "The Worst Takes It All",
         expansion_id: "1",
         option_img: "../images/player-options/disney-villainous/Ursula.png"
     },
@@ -124,6 +141,7 @@ const optionData = [
         name: "Yzma",
         game_name: "Disney Villainous",
         game_id: "1",
+        expansion_name: "Evil Come Prepared",
         expansion_id: "3",
         option_img: "../images/player-options/disney-villainous/Yzma.png"
     },
@@ -131,6 +149,7 @@ const optionData = [
         name: "Hela",
         game_name: "Marvel Villainous",
         game_id: "2",
+        expansion_name: "Infinite Power",
         expansion_id: "6",
         option_img: "../images/player-options/marvel-villainous/Hela.png"
     },
@@ -138,6 +157,7 @@ const optionData = [
         name: "Killmonger",
         game_name: "Marvel Villainous",
         game_id: "2",
+        expansion_name: "Infinite Power",
         expansion_id: "6",
         option_img: "../images/player-options/marvel-villainous/Killmonger.png"
     },
@@ -145,6 +165,7 @@ const optionData = [
         name: "Taskmaster",
         game_name: "Marvel Villainous",
         game_id: "2",
+        expansion_name: "Infinite Power",
         expansion_id: "6",
         option_img: "../images/player-options/marvel-villainous/Taskmaster.png"
     },
@@ -152,6 +173,7 @@ const optionData = [
         name: "Thanos",
         game_name: "Marvel Villainous",
         game_id: "2",
+        expansion_name: "Infinite Power",
         expansion_id: "6",
         option_img: "../images/player-options/marvel-villainous/Thanos.png"
     },
@@ -159,6 +181,7 @@ const optionData = [
         name: "Ultron",
         game_name: "Marvel Villainous",
         game_id: "2",
+        expansion_name: "Infinite Power",
         expansion_id: "6",
         option_img: "../images/player-options/marvel-villainous/Ultron.png"
     },

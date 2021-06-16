@@ -1,7 +1,9 @@
 const seedOptions = require('./options-seed');
 const seedGames = require('./games-seed');
+const seedExpansions = require('./expansion-seeds');
 
 const sequelize = require('../config/connection');
+
 
 const allSeed = async () => {
     await sequelize.sync({force: true});
@@ -12,6 +14,9 @@ const allSeed = async () => {
 
     await seedOptions();
      console.log('Options seeded');
+
+     await seedExpansions();
+     console.log('Expansions seeded');
 
      
 }

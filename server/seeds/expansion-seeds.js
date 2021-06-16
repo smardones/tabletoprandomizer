@@ -77,4 +77,10 @@ const expansionData = [
         name: "Rise of Fenris",
         game_id: 5
     }
-]
+];
+
+const seedExpansions = () => {
+    Expansion.bulkCreate(expansionData);
+};
+
+module.exports = seedExpansions;
