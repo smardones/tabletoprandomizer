@@ -189,6 +189,7 @@ const optionData = [
         name: "Bringer of Dreams and Nightmares",
         game_name: "Spirit Island",
         game_id: "3",
+        expansion_name: "Spirit Island - Base Game",
         expansion_id: "8",
         option_img: "../images/player-options/spirit-island/Bringer.png"
     },
@@ -196,6 +197,7 @@ const optionData = [
         name: "A Spread of Rampant Green",
         game_name: "Spirit Island",
         game_id: "3",
+        expansion_name: "Spirit Island - Base Game",
         expansion_id: "8",
         option_img: "../images/player-options/spirit-island/RampantGreen.png"
     },
@@ -203,6 +205,7 @@ const optionData = [
         name: "Lighting's Swift Strike",
         game_name: "Spirit Island",
         game_id: "3",
+        expansion_name: "Spirit Island - Base Game",
         expansion_id: "8",
         option_img: "../images/player-options/spirit-island/Lightning.png"
     },
@@ -210,6 +213,7 @@ const optionData = [
         name: "Ocean's Hungry Grasp",
         game_name: "Spirit Island",
         game_id: "3",
+        expansion_name: "Spirit Island - Base Game",
         expansion_id: "8",
         option_img: "../images/player-options/spirit-island/Ocean.png"
     },
@@ -217,6 +221,7 @@ const optionData = [
         name: "River Surges in Sunlight",
         game_name: "Spirit Island",
         game_id: "3",
+        expansion_name: "Spirit Island - Base Game",
         expansion_id: "8",
         option_img: "../images/player-options/spirit-island/River.png"
     },
@@ -224,6 +229,7 @@ const optionData = [
         name: "Shadows Flicker Like Flame",
         game_name: "Spirit Island",
         game_id: "3",
+        expansion_name: "Spirit Island - Base Game",
         expansion_id: "8",
         option_img: "../images/player-options/spirit-island/Shadows.png"
     },
@@ -231,6 +237,7 @@ const optionData = [
         name: "Thunderspeaker",
         game_name: "Spirit Island",
         game_id: "3",
+        expansion_name: "Spirit Island - Base Game",
         expansion_id: "8",
         option_img: "../images/player-options/spirit-island/Thunderspeaker.png"
     },
@@ -238,6 +245,7 @@ const optionData = [
         name: "Vital Strength of the Earth",
         game_name: "Spirit Island",
         game_id: "3",
+        expansion_name: "Spirit Island - Base Game",
         expansion_id: "8",
         option_img: "../images/player-options/spirit-island/Earth.png"
     },
@@ -245,6 +253,7 @@ const optionData = [
         name: "Heart of the Wildfire",
         game_name: "Spirit Island",
         game_id: "3",
+        expansion_name: "Promo Pack #1",
         expansion_id: "11",
         option_img: "../images/player-options/spirit-island/Wildfire.png"
     },
@@ -252,6 +261,7 @@ const optionData = [
         name: "Serpent Slumbering Beneath the Island",
         game_name: "Spirit Island",
         game_id: "3",
+        expansion_name: "Promo Pack #1",
         expansion_id: "11",
         option_img: "../images/player-options/spirit-island/Serpent.png"
     },
@@ -259,6 +269,7 @@ const optionData = [
         name: "Keeper of the Forbidden Wilds",
         game_name: "Spirit Island",
         game_id: "3",
+        expansion_name: "Branch & Claw",
         expansion_id: "9",
         option_img: "../images/player-options/spirit-island/Keeper.png"
     },
@@ -266,6 +277,7 @@ const optionData = [
         name: "Sharp Fangs Behind the Leaves",
         game_name: "Spirit Island",
         game_id: "3",
+        expansion_name: "Branch & Claw",
         expansion_id: "9",
         option_img: "../images/player-options/spirit-island/SharpFangs.png"
     },
@@ -273,6 +285,7 @@ const optionData = [
         name: "Downpour Drenches the World",
         game_name: "Spirit Island",
         game_id: "3",
+        expansion_name: "Promo Pack #2",
         expansion_id: "12",
         option_img: "../images/player-options/spirit-island/Downpour.png"
     },
@@ -280,6 +293,7 @@ const optionData = [
         name: "Finder of Paths Unseen",
         game_name: "Spirit Island",
         game_id: "3",
+        expansion_name: "Promo Pack #2",
         expansion_id: "12",
         option_img: "../images/player-options/spirit-island/Finder.png"
     },
@@ -287,6 +301,7 @@ const optionData = [
         name: "Fractured Days Split the Sky",
         game_name: "Spirit Island",
         game_id: "3",
+        expansion_name: "Jagged Earth",
         expansion_id: "10",
         option_img: "../images/player-options/spirit-island/FracturedDays.png"
     },
@@ -294,6 +309,7 @@ const optionData = [
         name: "Grinning Trickster Stirs Up Trouble",
         game_name: "Spirit Island",
         game_id: "3",
+        expansion_name: "Jagged Earth",
         expansion_id: "10",
         option_img: "../images/player-options/spirit-island/Trickster.png"
     },
@@ -301,6 +317,7 @@ const optionData = [
         name: "Lure of the Deep Wilderness",
         game_name: "Spirit Island",
         game_id: "3",
+        expansion_name: "Jagged Earth",
         expansion_id: "10",
         option_img: "../images/player-options/spirit-island/Lure.png"
     },
@@ -308,6 +325,7 @@ const optionData = [
         name: "Many Minds Move As One",
         game_name: "Spirit Island",
         game_id: "3",
+        expansion_name: "Jagged Earth",
         expansion_id: "10",
         option_img: "../images/player-options/spirit-island/ManyMinds.png"
     },
@@ -315,6 +333,7 @@ const optionData = [
         name: "Shifting Memory of Ages",
         game_name: "Spirit Island",
         game_id: "3",
+        expansion_name: "Jagged Earth",
         expansion_id: "10",
         option_img: "../images/player-options/spirit-island/Memories.png"
     },
@@ -322,6 +341,7 @@ const optionData = [
         name: "Shroud of Silent Mist",
         game_name: "Spirit Island",
         game_id: "3",
+        expansion_name: "Jagged Earth",
         expansion_id: "10",
         option_img: "../images/player-options/spirit-island/Shroud.png"
     },
@@ -329,6 +349,7 @@ const optionData = [
         name: "Starlight Seeks Its Form",
         game_name: "Spirit Island",
         game_id: "3",
+        expansion_name: "Jagged Earth",
         expansion_id: "10",
         option_img: "../images/player-options/spirit-island/Starlight.png"
     },
@@ -336,6 +357,7 @@ const optionData = [
         name: "Stone's Unyielding Defiance",
         game_name: "Spirit Island",
         game_id: "3",
+        expansion_name: "Jagged Earth",
         expansion_id: "10",
         option_img: "../images/player-options/spirit-island/Stone.png"
     },
@@ -343,6 +365,7 @@ const optionData = [
         name: "Vengeance As a Burning Plague",
         game_name: "Spirit Island",
         game_id: "3",
+        expansion_name: "Jagged Earth",
         expansion_id: "10",
         option_img: "../images/player-options/spirit-island/Vengeance.png"
     },
@@ -350,6 +373,7 @@ const optionData = [
         name: "Volcano Looming High",
         game_name: "Spirit Island",
         game_id: "3",
+        expansion_name: "Jagged Earth",
         expansion_id: "10",
         option_img: "../images/player-options/spirit-island/Volcano.png"
     },
@@ -357,6 +381,7 @@ const optionData = [
         name: "Lizard Cult",
         game_name: "Root",
         game_id: "4",
+        expansion_name: "The Riverfolk Expansion",
         expansion_id: "14",
         option_img: "../images/player-options/root/Lizard-Cult.jpg"
     },
@@ -364,6 +389,7 @@ const optionData = [
         name: "Riverfolk Company",
         game_name: "Root",
         game_id: "4",
+        expansion_name: "The Riverfolk Expansion",
         expansion_id: "14",
         option_img: "../images/player-options/root/Riverfolk-Company.jpg"
     },
@@ -371,6 +397,7 @@ const optionData = [
         name: "Corvid Conspiracy",
         game_name: "Root",
         game_id: "4",
+        expansion_name: "The Underworld Expansion",
         expansion_id: "15",
         option_img: "../images/player-options/root/RootUWE_CorvidConspiracy.png"
     },
@@ -378,6 +405,7 @@ const optionData = [
         name: "Underground Duchy",
         game_name: "Root",
         game_id: "4",
+        expansion_name: "The Underworld Expansion",
         expansion_id: "15",
         option_img: "../images/player-options/root/RootUWE_UndergroundDuchy.png"
     },
@@ -385,6 +413,7 @@ const optionData = [
         name: "Eyrie Dynasties",
         game_name: "Root",
         game_id: "4",
+        expansion_name: "Root - Base Game",
         expansion_id: "13",
         option_img: "../images/player-options/root/The-Eyrie-Dynasties.png"
     },
@@ -392,6 +421,7 @@ const optionData = [
         name: "Marquise de Cat",
         game_name: "Root",
         game_id: "4",
+        expansion_name: "Root - Base Game",
         expansion_id: "13",
         option_img: "../images/player-options/root/The-Marquise-de-Cat.png"
     },
@@ -399,6 +429,7 @@ const optionData = [
         name: "Vagabond",
         game_name: "Root",
         game_id: "4",
+        expansion_name: "Root - Base Game",
         expansion_id: "13",
         option_img: "../images/player-options/root/The-Vagabond.png"
     },
@@ -406,6 +437,7 @@ const optionData = [
         name: "Woodland Alliance",
         game_name: "Root",
         game_id: "4",
+        expansion_name: "Root - Base Game",
         expansion_id: "13",
         option_img: "../images/player-options/root/The-Woodland-Alliance.png"
     },
@@ -413,6 +445,7 @@ const optionData = [
         name: "Clan Albion",
         game_name: "Scythe",
         game_id: "5",
+        expansion_name: "Invaders from Afar",
         expansion_id: "18",
         option_img: "../images/player-options/scythe/Albion.jpg"
     },
@@ -420,6 +453,7 @@ const optionData = [
         name: "Crimean Khanate",
         game_name: "Scythe",
         game_id: "5",
+        expansion_name: "Scythe - Base Game",
         expansion_id: "17",
         option_img: "../images/player-options/scythe/Crimean.jpg"
     },
@@ -427,6 +461,7 @@ const optionData = [
         name: "Fenris",
         game_name: "Scythe",
         game_id: "5",
+        expansion_name: "Rise of Fenris",
         expansion_id: "19",
         option_img: "../images/player-options/scythe/Fenris.jpg"
     },
@@ -434,6 +469,7 @@ const optionData = [
         name: "Nordic Kingdoms",
         game_name: "Scythe",
         game_id: "5",
+        expansion_name: "Scythe - Base Game",
         expansion_id: "17",
         option_img: "../images/player-options/scythe/Nordic.jpg"
     },
@@ -441,6 +477,7 @@ const optionData = [
         name: "Republic of Polandia",
         game_name: "Scythe",
         game_id: "5",
+        expansion_name: "Scythe - Base Game",
         expansion_id: "17",
         option_img: "../images/player-options/scythe/Polania.jpg"
     },
@@ -448,6 +485,7 @@ const optionData = [
         name: "Rusviet Union",
         game_name: "Scythe",
         game_id: "5",
+        expansion_name: "Scythe - Base Game",
         expansion_id: "17",
         option_img: "../images/player-options/scythe/Rusviet.jpg"
     },
@@ -455,6 +493,7 @@ const optionData = [
         name: "Saxony Empire",
         game_name: "Scythe",
         game_id: "5",
+        expansion_name: "Scythe - Base Game",
         expansion_id: "17",
         option_img: "../images/player-options/scythe/Saxony.jpg"
     },
@@ -462,6 +501,7 @@ const optionData = [
         name: "Togawa Shogunate",
         game_name: "Scythe",
         game_id: "5",
+        expansion_name: "Invaders from Afar",
         expansion_id: "18",
         option_img: "../images/player-options/scythe/Togawa.jpg"
     },
@@ -469,6 +509,7 @@ const optionData = [
         name: "Vesna Tesla",
         game_name: "Scythe",
         game_id: "5",
+        expansion_name: "Rise of Fenris",
         expansion_id: "19",
         option_img: "../images/player-options/scythe/Vesna.jpg"
     }
