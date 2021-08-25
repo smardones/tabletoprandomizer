@@ -16,6 +16,6 @@ This app is perfect for indecisive gamers who can never pick who they want to be
 
 Shaun Mardones
 
-[Website](shaunmardones.com)
+[Website](https://shaunmardones.com/)
 
 [LinkedIn](https://www.linkedin.com/in/shaunmardones)
