@@ -15,5 +15,7 @@ This app is perfect for indecisive gamers who can never pick who they want to be
 ## Contributor
 
 Shaun Mardones
-![Website](shaunmardones.com)
-![LinkedIn](https://www.linkedin.com/in/shaunmardones)
+
+[Website](shaunmardones.com)
+
+[LinkedIn](https://www.linkedin.com/in/shaunmardones)
