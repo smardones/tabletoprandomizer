@@ -186,6 +186,30 @@ const optionData = [
         option_img: "../images/player-options/marvel-villainous/Ultron.png"
     },
     {
+        name: "Loki",
+        game_name: "Marvel Villainous",
+        game_id: "2",
+        expansion_name: "Mishchief & Malice",
+        expansion_id: "7",
+        option_img: "../images/player-options/marvel-villainous/Loki.jpg"
+    },
+    {
+        name: "M.O.D.O.K.",
+        game_name: "Marvel Villainous",
+        game_id: "2",
+        expansion_name: "Mishchief & Malice",
+        expansion_id: "7",
+        option_img: "../images/player-options/marvel-villainous/MODOK.jpg"
+    },
+    {
+        name: "Madame Masque",
+        game_name: "Marvel Villainous",
+        game_id: "2",
+        expansion_name: "Mishchief & Malice",
+        expansion_id: "7",
+        option_img: "../images/player-options/marvel-villainous/Masque.jpg"
+    },
+    {
         name: "Bringer of Dreams and Nightmares",
         game_name: "Spirit Island",
         game_id: "3",
